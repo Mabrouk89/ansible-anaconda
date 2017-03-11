@@ -6,10 +6,10 @@ This project contains the simplest possible [ansible](http://docs.ansible.com/an
 
 ### How to use
 
- - Install ansible on your computer and set  (sudo pip install ansible...).
+ - Install ansible on your computer and set $ANSIBLE_HOME (sudo pip install ansible...).
  - Clone this project.
- - Edit the envs/hosts file and enter the IP address of the server you are deploying to.
- - Edit the roles/anaconda/defaults/main.yml file and change the version of anaconda.
+ - Edit the `envs/hosts` file and enter the IP address of the server you are deploying to.
+ - Edit the `roles/anaconda/defaults/main.yml` file and change the version of anaconda.
  - Run the playbook :
 
       ```
